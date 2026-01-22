@@ -60,7 +60,9 @@ body {
 
 .hero-content {
     max-width: 820px;
+    margin-top: -40px; /* naikkan teks */
 }
+
 
 .badge {
     display: inline-block;
