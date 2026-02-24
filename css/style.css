@@ -37,7 +37,7 @@ body {
 }
 
 .logo-right {
-  height: 75px; /* samakan dengan logo kiri */
+  height: 150px; /* samakan dengan logo kiri */
   object-fit: contain;
 }
 
