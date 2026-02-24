@@ -15,6 +15,9 @@ body {
 
 /* ================= NAVBAR ================= */
 .navbar {
+  display: flex;                 /* tambahkan ini */
+  justify-content: space-between; /* kiri & kanan */
+  align-items: center;
   padding: 20px 48px;
 }
 
@@ -26,6 +29,16 @@ body {
 
 .logo {
   height: 56px;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+}
+
+.logo-right {
+  height: 56px; /* samakan dengan logo kiri */
+  object-fit: contain;
 }
 
 .brand-text {
